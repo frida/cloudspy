@@ -1,0 +1,28 @@
+{
+    "bitwise": true,
+    "browser": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "es5": true,
+    "forin": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "strict": true,
+    "sub": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "white": false,
+    "globals": {
+        "define": true,
+        "module": true,
+        "exports": true,
+        "require": true,
+        "console": true
+    }
+}

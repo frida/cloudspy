@@ -1,0 +1,41 @@
+<div class="project">
+    <div class="project-actions">
+            <button data-action="publish" data-hide="published">Publish</button>
+    </div>
+    <div class="capture" data-view="capture">
+        <div class="attach-form">
+            <div data-hide="frida-enabled">Plugin is not installed</div>
+            <div data-show="frida-enabled">
+                <select data-view="devices"></select>
+                <select data-view="processes"></select>
+                <button data-action="refresh">Refresh</button>
+                <button data-action="attach">Attach</button>
+            </div>
+        </div>
+        <div data-view="sessions">
+        </div>
+    </div>
+    <div class="stream" data-view="stream">
+        <div class="stream-status"><span>Total:</span> <span data-text="total"></span></div>
+        <div class="stream-actions">
+            <button data-action="clear">Clear</button>
+        </div>
+        <div class="stream-summary" data-view="summary">
+            <table class="headers">
+                <tr>
+                    <th>Index</th>
+                    <th>Type</th>
+                    <th>Timestamp</th>
+                    <th>Event</th>
+                    <th>Details</th>
+                </tr>
+            </table>
+            <div class="content">
+                <table tabindex="1">
+                </table>
+            </div>
+        </div>
+        <div class="stream-details" data-view="details">
+        </div>
+    </div>
+</div>

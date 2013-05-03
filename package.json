@@ -1,0 +1,26 @@
+{
+  "name": "ospy",
+  "version": "1.0.0",
+  "description": "oSpy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frida/ospy"
+  },
+  "keywords": [
+    "frida"
+  ],
+  "author": "Ole André Vadla Ravnås",
+  "license": "GPL",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "base62": "~0.1.1",
+    "future": "~2.3.1",
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.1.x",
+    "grunt-requirejs": "0.3.x",
+    "less": "~1.3.3",
+    "mongodb": "~1.2.13",
+    "restify": "~2.3.2",
+    "websocket": "~1.0.8"
+  }
+}

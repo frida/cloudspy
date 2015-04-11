@@ -1,5 +1,5 @@
-oSpy
-====
+CloudSpy
+========
 
 This is a proof-of-concept web app built on top of Frida.
 
